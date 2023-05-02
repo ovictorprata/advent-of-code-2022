@@ -355,7 +355,7 @@ letter_value = {
 }
 
 input = input.split('\n')
-input = [input[i:i+3] for i in range(0, len(input), 3)]
+input = list(input[i:i+3] for i in range(0, len(input), 3))
 
 items = []
 
