@@ -354,7 +354,6 @@ letter_value = {
     'Y': 51,
     'Z': 52
 }
-soma = 0
 items = []
 
 
