@@ -368,12 +368,12 @@ def split_string(word):
             return letter
         
 
-def get_value(value):
+def get_value_from_letter(value):
     return letter_value.get(value)
 
 
 items = list(map(split_string, input))
-result = sum(list(map(get_value, items)))
+result = sum(list(map(get_value_from_letter, items)))
 print(result)
             
     
